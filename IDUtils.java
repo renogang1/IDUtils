@@ -8,7 +8,7 @@ public class IDUtils {
 
     // Characters for the Tag
     private static final String[] tagChars = {"0", "2", "8", "9", "P", "Y", "L", "Q", "G", "R", "J", "C", "U", "V"};
-	// Gabriel55Ita shitcoder cause int limit is ~2kkk so after Q in 1 character in tag code breaks :)
+	// Gabriel55Ita shitcoder cause int limit is ~2kkk so after Q in first character in tag code breaks :)
     public static String id2Tag(long Id) {
         StringBuilder tag = new StringBuilder();
         while (Id > 0) {
