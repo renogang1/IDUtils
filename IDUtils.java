@@ -21,7 +21,7 @@ public class IDUtils {
     }
     public static int randomHighId(){
         Random rand = new Random();
-        return rand.nextInt(30000000);
+        return rand.nextInt(24);
     }
     public static int randomLowId(){
 //        int Id = (int) Math.random()*80707213;
