@@ -1,4 +1,4 @@
-package com.haccercat.client.Utils;
+package Utils;
 
 
 import java.util.Arrays;
